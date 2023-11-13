@@ -1,24 +1,90 @@
-nav.container{
-margin-top: 5.4rem;
+header{
+      position: relative;
 }
-nav ,.nav__right,.nav__right__top,.nav__right__bottom,.nav__right__top__numbers{
-      display: flex;
-      justify-content: space-between;
+nav.container {
+      background-color: red;
+      max-width: 100%; /* or any other suitable value */
+      position: absolute;
+      top: 2.4rem;
+      z-index: 1;
+    }
+    
+
+nav,
+.nav__right,
+.nav__right__top,
+.nav__right__bottom,
+.nav__right__top__numbers {
+  display: flex;
+  justify-content: space-between;
 }
 .nav__logo {
-      width: 15.6rem;
+  width: 15.6rem;
 }
-.nav__right{
-      flex-direction: column;
-      align-content: space-between;
+.nav__buttons {
+  font-size: 3rem;
 }
-.nav__right__top{
-      gap: 8.4rem;
+.nav__menu__button,
+.nav__exit__button ,.nav__right__bottom__slider__menu__laguage{
+  display: none;
 }
-.nav__right__top__numbers{
-      gap: 2rem;
+.nav__right {
+  flex-direction: column;
+  align-content: space-between;
+}
+.nav__right__top {
+  gap: 8.4rem;
+}
+.nav__right__top__numbers {
+  gap: 2rem;
 }
 
-.nav__right__bottom , .nav__right__bottom__menu{
-      gap: 5rem;
+.nav__right__bottom,
+.nav__right__bottom__menu {
+      font-weight: 500;
+  gap: 5rem;
+}
+
+@media (max-width: 1050px) {
+  .nav__right__bottom__menu {
+    gap: 2rem;
+  }
+}
+@media (max-width: 900px) {
+      nav{
+            gap: 2rem;
+            flex-direction: column;
+
+      }
+      .nav__right__top{
+            display: none;
+      }
+      
+      .nav__right__bottom__language{
+            display: none;
+      }
+      .nav__left{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+      }
+      .nav__right__bottom{
+            font-size: 2rem;
+      }
+      
+
+}
+@media (max-width: 700px) {
+      .nav__menu__button,.nav__right__bottom__slider__menu__laguage{
+            display: block;
+      }
+      .nav__right__bottom__menu,.nav__right__bottom{
+            flex-direction: column;
+      }
+      .nav__right__bottom__slider__menu__laguage{
+            display: flex;
+            gap: 3rem;
+      }
+
 }

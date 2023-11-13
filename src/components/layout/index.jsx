@@ -1,17 +1,32 @@
 import React from 'react'
-import "./layout.css"
- import { Link } from 'react-router-dom'
-import NavLogo from "../../assets/img/navLogo.png"
+import "./layout.css";
+ import { Link } from 'react-router-dom';
+import NavLogo from "../../assets/img/navLogo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faPhone,faBars,faX } from '@fortawesome/free-solid-svg-icons';
+import HeaderSlider from '../headerSlider';
 const Layout = ({children}) => {
   return (
     <>
     <header>
       <nav className='container'>
             <div className="nav__left">
+                 
                   <div className="nav__logo">
                         <img src={NavLogo} alt="" />
+                  </div>
+                  <div className="nav__buttons">
+                        <div className="nav__menu__button">
+                        <FontAwesomeIcon icon={faBars} />
+
+                        </div>
+                        <div className="nav__exit__button">
+                        <FontAwesomeIcon icon={faX} />
+
+                        </div>
+
+
+                
                   </div>
 
                  
@@ -45,6 +60,14 @@ const Layout = ({children}) => {
                                     <option value=""><Link to='/'className='menu__link'>ENG</Link></option>
                                     <option value=""><Link to='/'className='menu__link'>RUS</Link></option>
                               </select>
+                              <ul className='nav__right__bottom__slider__menu__laguage'>
+                                    <li> <Link to='/' className='menu__link'>AZE</Link> </li>
+                                    <li> <Link to='/about'className='menu__link'>ENG</Link> </li>
+                                    <li> <Link to='/'className='menu__link'>RUS</Link> </li>
+                                   
+                                    
+                              </ul>
+
 
                    
                         
@@ -52,6 +75,9 @@ const Layout = ({children}) => {
 
             </div>
       </nav>
+      <div className="header__slider">
+            <HeaderSlider />
+      </div>
     </header>
     <div className="container">
     {children}
