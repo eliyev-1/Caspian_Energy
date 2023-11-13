@@ -1,0 +1,19 @@
+nav {
+      background-color: red;
+
+}
+
+nav ,.nav__right__top{
+      display: flex;
+      justify-content: space-between;
+
+}
+.nav__right__top{
+      gap: 8.4rem;
+}
+
+
+
+.nav__logo {
+      width: 15.6rem;
+}
