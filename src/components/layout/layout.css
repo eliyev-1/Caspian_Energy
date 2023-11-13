@@ -1,19 +1,24 @@
-nav {
-      background-color: red;
-
+nav.container{
+margin-top: 5.4rem;
 }
-
-nav ,.nav__right__top{
+nav ,.nav__right,.nav__right__top,.nav__right__bottom,.nav__right__top__numbers{
       display: flex;
       justify-content: space-between;
-
+}
+.nav__logo {
+      width: 15.6rem;
+}
+.nav__right{
+      flex-direction: column;
+      align-content: space-between;
 }
 .nav__right__top{
       gap: 8.4rem;
 }
+.nav__right__top__numbers{
+      gap: 2rem;
+}
 
-
-
-.nav__logo {
-      width: 15.6rem;
+.nav__right__bottom , .nav__right__bottom__menu{
+      gap: 5rem;
 }
