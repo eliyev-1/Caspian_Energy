@@ -37,18 +37,30 @@ img {
 }
 @media (max-width:1350px){
   .container{
-    padding:  0  2rem ;
+    padding: 0 2rem ;
   }
 
 }
 ul{
   list-style: none;
   display: flex;
+  font-weight: 500;
+  gap: 5rem;
   
+}
+h1{
+  font-size: 4.9rem;
+  font-weight: 600;
+
+}
+@media (max-width: 650px) {
+  h1{
+    font-size: 3rem;
+  }
 }
 select{
   border: none;
-  background-color: var(--color-dark-blue);
+  background-color: transparent;
   color: var(--color-white);
 }
 option{
@@ -56,7 +68,20 @@ option{
   background-color: var(--color-dark-blue);
   color: var(--color-white);
 }
-.menu__link{
+.link{
   text-decoration: none;
   color: var(--color-white);
+}
+.learn__more__box{
+  padding: 1rem 2.4rem;
+  background-color: var(--color-white);
+ 
+  display: inline;
+
+}
+.learn__more__link{
+  padding: 1rem 2.4rem;
+  color: var(--color-dark-blue);
+  font-weight: 600;
+
 }
