@@ -1,0 +1,45 @@
+.about{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 3rem;
+}
+.about p{
+    max-width: 52.4rem;
+    
+
+}
+.about video{
+  width: 100%;
+    
+
+}
+.about__header{
+    margin-bottom: 3rem;
+}
+.detail__link__box{
+    margin-top: 4rem;
+}
+@media (max-width: 1000px) {
+    .about p{
+        max-width: 40rem;
+        
+    
+    }
+  }
+  @media (max-width: 1000px) {
+    .about{
+     
+        grid-template-columns: auto;
+        
+    }
+    .about p{
+        max-width: 100%;
+        padding: 0rem;
+    
+    }
+    .about div:nth-child(3){
+       order: 4;
+    
+    }
+  }

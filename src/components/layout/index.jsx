@@ -89,19 +89,19 @@ const Layout = ({ children }) => {
             </li>
             <li>
               {" "}
-              <Link to="/" className="link" onClick={closeMenu}>
+              <Link to="/products" className="link" onClick={closeMenu}>
               Products
               </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link to="/about" className="link" onClick={closeMenu}>
+              <Link to="/partners" className="link" onClick={closeMenu}>
               Partners
               </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link to="/" className="link" onClick={closeMenu}>
+              <Link to="/catalogue" className="link" onClick={closeMenu}>
               Catalogue
               </Link>{" "}
             </li>
@@ -113,7 +113,7 @@ const Layout = ({ children }) => {
             </li>
             <li>
               {" "}
-              <Link to="/" className="link" onClick={closeMenu}>
+              <Link to="/contact" className="link" onClick={closeMenu}>
               Contact
               </Link>{" "}
             </li>

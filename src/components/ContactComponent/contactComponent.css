@@ -1,0 +1,38 @@
+
+.contact{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+.contact__tittle{
+    margin-top: 2rem;
+}
+.contact__left ul{
+    margin-top: 5rem;
+    gap: 5rem;
+    flex-direction: column;
+}
+.contact__left ul li{
+    display: flex;
+    gap: 1rem;
+}
+.contact__left ul li p{
+    max-width: 30rem;
+}
+form{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+@media (max-width:800px){
+    .contact{
+        flex-direction: column;
+    }
+}

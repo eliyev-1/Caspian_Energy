@@ -1,0 +1,8 @@
+.products__section__header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.partners__slider{
+    padding: 3rem;
+  }

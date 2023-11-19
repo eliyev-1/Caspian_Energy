@@ -9,7 +9,7 @@ header {
 
 .nav {
   width: 100%;
-  position: fixed;
+  position: absolute;
   padding: 2.4rem 0;
   left: 50%;
   transform: translate(-50%);

@@ -1,0 +1,39 @@
+.Why__choose__us{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.Why__choose__us__left__image{
+   max-width: 60.6rem;
+}
+.Why__choose__us__right ul{
+    flex-direction: column;
+    margin-top: 6rem;
+}
+.Why__choose__us__right ul li{
+    display: flex;
+    gap: 5.1rem;
+    
+}
+.Why__choose__us__right ul li div:nth-child(2) p{
+    color: var( --color-grey);
+    max-width: 52.4rem;
+  margin-top: 2rem;
+    
+}
+.check__icon{
+    font-size: 4rem;
+}
+@media (max-width: 1000px) {
+    .Why__choose__us__left__image{
+        max-width: 100%;
+     }
+    .Why__choose__us{
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+}
