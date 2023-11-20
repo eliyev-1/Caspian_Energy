@@ -9,6 +9,8 @@ import ProductsDetailPage from './pages/ProductsPage/productsDetailPage'
 import PartnersPage from './pages/PartnersPage'
 import CataloguePage from './pages/CataloguePage'
 import ContactPage from './pages/ContactPage'
+import SupportPage from './pages/SupportPage'
+import NewsPage from './pages/NewsPage'
 
 
 
@@ -27,6 +29,8 @@ function App() {
         <Route path='/partners' element={<PartnersPage/>}/>
         <Route path='/catalogue' element={<CataloguePage/>}/>
         <Route path='/contact' element={<ContactPage/>}/>
+        <Route path='/support' element={<SupportPage/>}/>
+        <Route path='/news' element={<NewsPage/>}/>
 
       </Routes>
     </Layout>

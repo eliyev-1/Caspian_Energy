@@ -1,0 +1,21 @@
+.news {
+  background-color: var(--color-light-blue);
+  display: flex;
+  justify-content: space-around;
+  height: 9.4rem;
+  margin-bottom: 5rem;
+}
+label {
+  cursor: pointer;
+}
+.news div {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: var(--color-grey);
+  
+}
+
+input[type="checkbox"] {
+  display: none;
+}

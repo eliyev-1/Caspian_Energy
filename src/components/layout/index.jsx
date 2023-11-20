@@ -107,7 +107,7 @@ const Layout = ({ children }) => {
             </li>
             <li>
               {" "}
-              <Link to="/about" className="link" onClick={closeMenu}>
+              <Link to="/news" className="link" onClick={closeMenu}>
               News
               </Link>{" "}
             </li>
@@ -191,31 +191,31 @@ const Layout = ({ children }) => {
             </li>
             <li>
               {" "}
-              <Link to="/" className="link" onClick={closeMenu}>
+              <Link to="/products" className="link" onClick={closeMenu}>
               Products
               </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link to="/about" className="link" onClick={closeMenu}>
+              <Link to="/partners" className="link" onClick={closeMenu}>
               Partners
               </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link to="/" className="link" onClick={closeMenu}>
+              <Link to="/catalogue" className="link" onClick={closeMenu}>
               Catalogue
               </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link to="/about" className="link" onClick={closeMenu}>
+              <Link to="/news" className="link" onClick={closeMenu}>
               News
               </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link to="/" className="link" onClick={closeMenu}>
+              <Link to="/contact" className="link" onClick={closeMenu}>
               Contact
               </Link>{" "}
 
@@ -223,7 +223,7 @@ const Layout = ({ children }) => {
             </li>
             <li>
               {" "}
-              <Link to="/" className="link" onClick={closeMenu}>
+              <Link to="/support" className="link" onClick={closeMenu}>
               Support
               </Link>{" "}
             </li>
@@ -247,7 +247,7 @@ const Layout = ({ children }) => {
                   <ul className="footer__bottom__left">
                 <li>
               {" "}
-              <Link to="/" className="link" onClick={closeMenu}>
+              <Link to="/support" className="link" onClick={closeMenu}>
               Support
               </Link>{" "}
             </li>

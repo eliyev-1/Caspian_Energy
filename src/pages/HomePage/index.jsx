@@ -6,6 +6,7 @@ import WhyChooseUs from "../../components/WhyChooseUs";
 import ProductsComponent from "../../components/ProduductsComponent";
 import PartnersSlider from "../../components/PartnersSlider";
 import ContactComponent from "../../components/ContactComponent";
+import NewsCards from "../../components/NewsCards";
 import "./home.css"
 
 const Home = () => {
@@ -43,6 +44,10 @@ Caspian Energy Group - Respublikamızın tikinti sənayesinin tələblərinə uy
       <section className="partners__slider">
         <PartnersSlider/>
        
+      </section>
+      <section>
+        <NewsCards/>
+
       </section>
       <section>
       <ContactComponent/>

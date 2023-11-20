@@ -3,6 +3,7 @@ import {faLocationDot,faPhone,faEnvelope,faClock ,faGlobe  } from "@fortawesome/
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+
 import "./contactComponent.css"
 
 const ContactComponent = () => {
@@ -49,8 +50,13 @@ const ContactComponent = () => {
                 <input type="text" placeholder='E-mail' />
                </div>
                <div>
-               <label htmlFor="">E-mail</label>
+               <label htmlFor="">Mesaj</label>
                 <textarea cols="30" rows="10" placeholder='Mesaj yaz'></textarea>
+               </div>
+               <div >
+               <Link  className='send__link'> Göndər</Link>
+
+
                </div>
 
             </form>
