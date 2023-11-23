@@ -8,12 +8,12 @@ const Products = () => {
   return (
 
     <div className="container">
-       <PageLinks home="Home" about="Məhsullar" />
+      <PageLinks home="Home" about="Məhsullar" />
 
-<div className="page__header">
-  <h2>Məhsullar</h2>
-</div>
-<ProductsComponent/>
+      <div className="page__header">
+        <h2>Məhsullar</h2>
+      </div>
+      <ProductsComponent />
     </div>
   )
 }
